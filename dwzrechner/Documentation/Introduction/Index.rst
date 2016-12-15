@@ -16,13 +16,7 @@ This Extension shows a calculator for the german chess rating number (DWZ).
 
 Demo: https://chesscloud.eu/demo/dwz-rechner/
 
-.. important::
-
-   Please don't forget to repeat your extension's version number in the
-   :file:`Settings.yml` file, in the :code:`release` property. It will be
-   automatically picked up on the cover page by the :code:`|release|`
-   substitution.
-
+ 
 
 .. _screenshots:
 
