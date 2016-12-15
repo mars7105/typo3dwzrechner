@@ -1,0 +1,236 @@
+<!-- DWZ Rechner - Ein Programm zum Berechnen von DWZ Zahlen von Schach Turnieren -->
+<!-- Copyright (C) 2015  Martin Schmuck m_schmuck@gmx.net -->
+<!--  -->
+<!-- This program is free software: you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation, either version 3 of the License, or -->
+<!-- (at your option) any later version. -->
+<!--  -->
+<!-- This program is distributed in the hope that it will be useful, -->
+<!-- but WITHOUT ANY WARRANTY; without even the implied warranty of -->
+<!-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the -->
+<!-- GNU General Public License for more details. -->
+<!--  -->
+<!-- You should have received a copy of the GNU General Public License -->
+<!-- along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<!-- 	<form name="dwzrechnen" id="rechnerFormular" action=""> -->
+
+		<form name="dwzrechnen" id="rechnerFormular" action="{FORM_ACTION}">
+          <div class="basic">
+			<div class="title">
+				deine Daten:
+		    </div>
+		    <div class="field">
+	          Alter: 
+              <select name="alter">
+                <option value="0"> unter 20 Jahre</option>
+                <option value="1">20 bis 25 Jahre</option>
+                <option value="2" selected>über 25 Jahre</option>
+              </select>
+            </div>
+          
+			<div class="field">
+	          DWZ: 
+              <input type="text" name="eigenedwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+ 
+          </div>  
+                               
+				<div class="info buttons" onclick="info()">
+					 &nbsp; 
+				</div>       
+          <div class="clear">
+          </div> 
+          <div class="basic">
+			<div class="title">
+				deine Gegner:
+		    </div>    
+		        
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+            </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <div class="clear">
+          </div>  
+          
+         <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+            </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <div class="clear">
+          </div>      
+          
+         <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+            </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <!-- Eingabefeld für die DWZ Parameter -->
+	      <div  class="basic">
+			<div class="field">
+              DWZ: 
+              <input type="text" name="dwz" value="" size="4" onchange="checkDWZ(this)">
+            </div>
+            <div class="field">
+              Punkt: 
+              <select name="punkte">
+                <option value="0"> 0</option>
+                <option value="0.5">0,5</option>
+                <option value="1"> 1</option>
+              </select>
+           </div>
+          </div>
+          <div class="clear">
+          </div>      
+          <div id="moreFields"></div>                      
+				<div class="addInputs buttons" onclick="addFields()">
+					 &nbsp; 
+				</div>
+				<div class="removeInputs buttons" onclick="removeFields()">
+					 &nbsp; 
+				</div>				
+          <div class="clear">
+          </div>      
+          </div>  
+          <div class="basic">
+			   
+            <div class="title">
+		      Ergebnis:
+		    </div>               
+            <div id="ergebnis">&nbsp;</div>  
+		  </div> 
+          <div class="clear">
+          </div>   
+          <div  class="basic">
+			<div class="title">
+				Formular:
+		    </div>
+			<div class="field"><div class="symboltext">                      
+				<div class="submit buttons" onclick="berechnenButtonClicked()">
+					 &nbsp; 
+				</div>Rechne</div> 
+				<div class="symboltext">
+				<div class="reset buttons" onclick="resetAll()">
+					&nbsp;
+				</div>Reset</div> 
+			</div>
+		  </div>
+           <div class="clear">
+          </div> 
+          	<script>
+				document.addEventListener("DOMContentLoaded", function(event) {
+					init();
+				});
+			</script> 
+        </form>
+        <div class="clear">
+        </div>   
+

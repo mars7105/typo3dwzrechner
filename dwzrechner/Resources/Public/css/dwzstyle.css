@@ -1,0 +1,203 @@
+/*
+DWZ Rechner - Ein Programm zum Berechnen von DWZ Zahlen von Schach Turnieren
+Copyright (C) 2015  Martin Schmuck m_schmuck@gmx.net
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+#rechnerFormular {
+  color:black;
+  float:left;
+  display:inline;
+  border:1px solid #949494;
+  padding: 5px 0 5px 0;
+  margin:5px;
+  background-color: #D6D6D6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-image: url("../images/kcalc-2.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.basic {
+  float:left;
+  border:1px solid #949494;
+  padding: 5px;
+  margin: 5px;
+  background-color: #E4E4E4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.field  {
+  text-align:left;
+  display:block;
+  margin:5px;
+}
+.field input {
+  background-color: #F3F3F3;
+}
+.title {
+  border-bottom:3px solid #949494;
+  padding: 5px;
+  margin: 5px -5px 5px -5px;
+
+}
+
+.dwzalter {
+
+}
+
+.dwzinputbox {
+ 
+}
+
+.buttons {
+  width:32px;
+  height:32px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.buttons:hover {
+  background-color: #F4F4F4;
+}
+
+.submit {
+  background-image: url("../images/media-playback-start-7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reset {
+  background-image: url("../images/media-playback-stop-7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.addInputs {
+  background-image: url("../images/list-add-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float:left;
+}
+
+.removeInputs {
+  background-image: url("../images/list-remove-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float:right;
+}
+
+.info {
+  background-image: url("../images/help-about-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float:right;
+	
+}
+
+.infobutton {
+  width:32px;
+  height:32px;
+  padding: 5px;
+  margin: 5px;
+  background-color:#FFFFCC;
+  background-image: url("../images/help-about-3.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.important {
+  width:32px;
+  height:32px;
+  padding: 5px;
+  margin: 5px;
+  background-color:#FFFFCC;
+  background-image: url("../images/emblem-important.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.clear {
+  clear:both;
+}
+
+.notice {
+  padding: 5px;
+  margin: 5px;
+  background-color:#FFFFCC;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#ergebnis {
+  width: 240px;
+  min-height: 385px;
+  background-color: #F3F3F3;
+  display:block;
+  border: 1px solid #949494;
+  padding: 5px;
+  margin: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.reload {
+  float:right;
+  width:16px;
+  height:16px;
+
+  background-image: url("arrow-refresh.png");
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin: 5px;
+  
+}
+.run {
+  width:16px;
+  height:16px;
+
+  background-image: url("arrow-refresh.png");
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin: 5px;
+}
+.symboltext {
+  float:left;
+  padding: 5px;
+  margin: 5px;
+}
+
+.ergebnisfeld {
+  float:right;
+  padding: 5px;
+  margin: 1px;
+}
+.indexfeld {
+  float:left;
+  padding: 5px;
+  margin: 1px;
+}
+.ergbnisbox {
+width:95%;
+float:left;
+  border-bottom:1px solid #949494;
+  padding: 5px;
+  margin: 1px;
+  }

@@ -1,0 +1,3 @@
+#page.includeCSS { 
+#		EXT:dwzrechner/Resources/Private/Templates/Static/dwzstyle.css
+#} 
