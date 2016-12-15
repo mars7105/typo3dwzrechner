@@ -26,7 +26,7 @@ Screenshots
 This chapter should help people figure how the extension works. Remove it
 if not relevant.
 
-.. figure:: ../Images/IntroductionPackage.png
+.. figure:: ../Images/Auswahl_004.jpg
    :width: 500px
    :alt: Introduction Package
 
