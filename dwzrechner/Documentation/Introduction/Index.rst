@@ -12,9 +12,9 @@ Introduction
 What does it do?
 ----------------
 
-This chapter should give a brief overview of the extension. What does it do? What problems does it solve?
-Who is interested in this? Basically, this section includes everything people need to know to decide whether they
-should go on with this extension or not.
+This Extension shows a calculator for the german chess rating number (DWZ).
+
+Demo: https://chesscloud.eu/demo/dwz-rechner/
 
 .. important::
 
